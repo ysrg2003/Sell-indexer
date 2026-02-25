@@ -31,6 +31,8 @@
    * اضغط New repository secret.
    * الاسم: GOOGLE_INDEXING_JSON.
    * القيمة: افتح ملف الـ JSON الذي حملته من جوجل ببرنامج "Notepad"، انسخ كل ما بداخله والصقه هنا.
+   * أضف سراً جديداً باسم DAILY_LIMIT.
+   * القيمة التي دفع العميل ثمنها (مثلاً: 30 أو 100 أو 200).
 3. استخراج "مفتاح الوصول" (The Fine-grained Token)
  * من صورة حسابك في GitHub (أعلى اليمين) > Settings.
  * انزل لآخر القائمة جهة اليسار: Developer settings.

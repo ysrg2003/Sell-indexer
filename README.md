@@ -41,10 +41,14 @@
  * Repository access: اختر Only select repositories وحدد مستودع العميل فقط.
  * Permissions: اضغط على Repository permissions وابحث عن Contents واجعلها Read and Write.
  * اضغط Generate وانسخ الكود الناتج (لن تراه مرة أخرى!).
+
+ * إذن التشغيل: في المستودعات الخاصة، اذهب لـ Settings > Actions > General وتأكد أن الخيار هو Allow all actions and reusable workflows.
+   
 الجزء الثالث: لوحة التحكم (The UI) - من أين نأتي بها؟
 ستقوم بإنشاء ملف index.html في نفس مستودع العميل. إليك أهم الأسطر التي ستقوم بتغييرها في كل مرة:
  * السطر الخاص بالتوكن: ابحث عن المتغير الذي يحمل التوكن وضعه بداخله.
  * السطر الخاص بالمسار: ابحث عن const REPO_PATH = 'اسم-حسابك/اسم-مستودع-العميل';.
+
 الجزء الرابع: كيف تربط العميل بالنظام؟ (The Final Link)
 هذه هي الخطوة التي يفعلها العميل:
  * يفتح Google Search Console الخاص بموقعه.
